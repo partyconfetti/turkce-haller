@@ -1,0 +1,16 @@
+{
+  "name": "turkce-haller",
+  "version": "1.0.0",
+  "description": "Turkce haller modulu",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/partyconfetti/turkce-haller.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/partyconfetti/turkce-haller/issues"
+  },
+  "homepage": "https://github.com/partyconfetti/turkce-haller#readme"
+}
