@@ -14,7 +14,7 @@ haller('Ankara', 'den', '\' ') // Ankara' dan
 ```
 
 ## API
-haller(isim, hal, **kesmeIsareti**)
+haller(isim, hal, *kesmeIsareti*)
 
 ```kesmeIsareti``` İsteğe bağlı, default: ```’```
 
