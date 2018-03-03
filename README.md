@@ -1,6 +1,6 @@
 # Türkçe Haller
 
-![npm](https://nodei.co/npm/turkce-haller.png?downloads=true&downloadRank=true&stars=true)
+[![npm package](https://nodei.co/npm/turkce-haller.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/turkce-haller/)
 
 ## Kurulum
 `npm install turkce-haller --save`
