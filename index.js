@@ -10,7 +10,7 @@ module.exports = (isim, hal, kesme = '’') => {
 
 	hal = hal.toLocaleLowerCase('tr')
 	if(!['iyelik', 'i', 'e', 'de', 'den'].includes(hal)){
-		console.log(new Error(`'Turkce-Haller: Invalid hal '${hal}'`))
+		console.log(new Error(`Turkce-Haller: Invalid hal '${hal}'`))
 		return ''
 	}
 
