@@ -9,6 +9,11 @@ module.exports = (isim, hal, kesme = '’') => {
 	if(!isim || !hal) return ''
 
 	hal = hal.toLocaleLowerCase('tr')
+	if(!['iyelik', 'i', 'e', 'de', 'den'].includes(hal)){
+		console.log(new Error(`'Turkce-Haller: Invalid hal '${hal}'`))
+		return ''
+	}
+
 	const sonHarf = isim[isim.length - 1]
 	const istisna = ~~/[ei][^ıüoö]*[au]l$|alp$/.test(isim) * 2 // Sapkali harf istisnasi var mı kontrol eder Orn: Alp, Resul, Cemal... 0 veya 2 degeri doner
 	const sonSesli = isim.match(/[aıeiouöü]/g).pop()
