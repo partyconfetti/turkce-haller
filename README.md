@@ -20,13 +20,13 @@ haller(isim, hal, *kesmeIsareti*)
 
 ## Ekler
 
-| Durum                            | Ekler  | Örnek      |
-|----------------------------------|--------|------------|
-| Yönelme Hali                     | -e     | Sercan’a   |
-| Belirtme Hali                    | -i     | Sercan’ı   |
-| Bulunma Hali                     | -de    | Sercan’da  |
-| Ayrılma Hali                     | -den   | Sercan’dan |
-| İyelik Eki                       | -m -n  | Sercan’ın  |
+| Durum                            | Ekler  | Kullanım  | Örnek      |
+|----------------------------------|--------|-----------|------------|
+| Yönelme Hali                     | -e     | e         | Sercan’a   |
+| Belirtme Hali                    | -i     | i         | Sercan’ı   |
+| Bulunma Hali                     | -de    | de        | Sercan’da  |
+| Ayrılma Hali                     | -den   | den       | Sercan’dan |
+| İyelik Eki                       | -m -n  | iyelik    | Sercan’ın  |
 
 ## Lisans
 MIT
