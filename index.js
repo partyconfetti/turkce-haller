@@ -8,14 +8,14 @@ const iEKLERI = 'ııiiuuüü'
 module.exports = (isim, hal, kesme = '’') => {
 	if(!isim || !hal) return ''
 
-	hal = hal.toLocaleLowerCase('tr');
+	hal = hal.toLocaleLowerCase('tr')
 	const sonHarf = isim[isim.length - 1]
 	const istisna = ~~/[ei][^ıüoö]*[au]l$|alp$/.test(isim) * 2 // Sapkali harf istisnasi var mı kontrol eder Orn: Alp, Resul, Cemal... 0 veya 2 degeri doner
 	const sonSesli = isim.match(/[aıeiouöü]/g).pop()
 
 	// Ek in sesli harfine karar verir
 	let ek = (hal === IYELIK || hal === iHALI) ?  // iyelik veya i hali ise
-		// Son sesli harf aıeiouöü harflerinin hangisine denk geliyorsa o index numarasıyla iEkleri nin n'inci elemanı seçilir
+		// Son sesli harf aıeiouöü harflerinin hangisine denk geliyorsa o index numarasıyla iEKLERI nin n'inci elemanı seçilir
 		iEKLERI[ 'aıeiouöü'.indexOf(sonSesli) + istisna ]
 		: // e, de veya den hali ise
 		// Son sesli harf a, ı, o veya u ise ek a (istisna var ise e ), e, i, ö veya ü ise ek e harfi
